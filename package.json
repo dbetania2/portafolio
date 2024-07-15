@@ -1,0 +1,18 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Daiana Del Grecco",
+  "description": "Este es mi portafolio personal con un juego interactivo.",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "phaser": "^3.80.1"
+  },
+  "copyright": "Copyright © [2024] Del Grecco Daiana. Todos los derechos reservados."
+}
