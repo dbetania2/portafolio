@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #504b4b; /* Fondo opcional */
+}
+
+  
+  #isometricRoom-container {
+    overflow: hidden; /* Para evitar desbordes */
+}
+
+  
