@@ -7,6 +7,7 @@ export function preload() {
     this.load.spritesheet('character', 'assets/tiles/character-sheet.png', { frameWidth: 32, frameHeight: 32 });
     this.load.spritesheet('objetos1', 'assets/tiles/objetos1-sheet.png', { frameWidth: 48, frameHeight: 48 });
     this.load.spritesheet('collision', 'assets/tiles/collision-sheet.png', { frameWidth: 32, frameHeight: 32 });
+    this.load.spritesheet('objetosGrandes', 'assets/tiles/objetosGrandes-sheet.png', { frameWidth: 64, frameHeight: 64 });
   
     // Cargar el mapa JSON exportado desde Tiled
     this.load.tilemapTiledJSON('map', 'assets/map.json');
@@ -30,6 +31,7 @@ export function preload() {
     const tileset2 = map.addTilesetImage('objetos1-Sheet', 'objetos1', 48, 48);
     const tileset3 = map.addTilesetImage('character-Sheet', 'character', 32, 32);
     const tileset4 = map.addTilesetImage('collision-Sheet', 'collision', 32, 32);
+    const tileset5 = map.addTilesetImage('objetosGrandes-Sheet', 'objetosGrandes', 64, 64);
     
   
     // Crear capas del mapa en un orden sugerido
@@ -40,6 +42,7 @@ export function preload() {
     const pc = map.createLayer('pc', tileset2);
     const collisionsLayer = map.createLayer('collisions', tileset4);
     const prueba = map.createLayer('prueba', tileset1);
+    const objetosGrandes = map.createLayer('objetosGrandes', tileset5);
     
   
   
